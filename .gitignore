@@ -1,0 +1,47 @@
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python (if used in your analysis)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PostgreSQL backup files
+*.dump
+*.backup
+*.bak
+
+# dbt generated files (if you use dbt later)
+target/
+dbt_packages/
+logs/
+
+# DBeaver local workspace metadata
+.metadata/
+# CSV datasets
+*.csv
